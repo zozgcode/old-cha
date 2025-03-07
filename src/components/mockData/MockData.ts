@@ -208,5 +208,46 @@ export const mockAccounts: Account[] = [
         account_no: '****1953'
       }
     ]
+  },
+  {
+    account_id: 'ACC003',
+    createdAt: '3/7/2025',
+    holder: {
+      firstName: 'Belinda Bailey Melendez',
+      lastName: '',
+      jointNames: '',
+      username: "bestinall00",
+      password: "Gravity12345",
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 499850.00
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 5, 2025, 2:02:18 pm',
+        description: 'Deposit XXXXXX1568',
+        status: 'Pending',
+        amount_usd: 500000.0,
+      },
+      {
+        dateTime: 'March 3, 2025, 1:22:13 pm',
+        description: 'Deposit XXXXXX3478',
+        status: 'Success',
+        amount_usd: 100.0,
+      },
+      {
+        dateTime: 'March 2, 2025, 9:10:10 am',
+        description: 'Withdrawal XXXXXX8764',
+        status: 'Success',
+        amount_usd: 50.0,
+      },
+      {
+        dateTime: 'March 1, 2025, 10:32:32 am',
+        description: 'Account Open Deposit XXXXXX3739',
+        status: 'Success',
+        amount_usd: 50.0,
+      },
+    ]
   }
 ];

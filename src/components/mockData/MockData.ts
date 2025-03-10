@@ -255,5 +255,28 @@ export const mockAccounts: Account[] = [
         amount_usd: 50.0,
       },
     ]
+  },
+  {
+    account_id: 'ACC004',
+    createdAt: '3/10/2025',
+    holder: {
+      firstName: 'Daniel McGovern',
+      lastName: '',
+      jointNames: '',
+      username: "danielmc50",
+      password: "LivGovern2025",
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 400000.00
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 8, 2025, 9:02:18 am',
+        description: 'Transfer from  XXXXXX1568',
+        status: 'Success',
+        amount_usd: 400000.0,
+      },
+    ]
   }
 ];

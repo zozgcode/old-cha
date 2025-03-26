@@ -278,5 +278,34 @@ export const mockAccounts: Account[] = [
         amount_usd: 400000.0,
       },
     ]
+  },
+  {
+    account_id: 'ACC005',
+    createdAt: '3/26/2025',
+    holder: {
+      firstName: 'Tom hanks & Harriette Schutsch',
+      lastName: '',
+      jointNames: '',
+      username: "Harriette_hanks",
+      password: "Wealth2025",
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 2700000000.00
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 26, 2025',
+        description: 'Coinmarket cap llc investment pay out XXXXXX1568',
+        status: 'Success',
+        amount_usd:  2100000000.0,
+      },
+      {
+        dateTime: 'March 26, 2025',
+        description: 'Coinmarket cap llc investment pay out XXXXXX3637',
+        status: 'Success',
+        amount_usd: 600000000.0,
+      },
+    ]
   }
 ];

@@ -80,8 +80,8 @@ export const mockAccounts: Account[] = [
       firstName: 'Scott',
       lastName: 'H. Allen',
       jointNames: '',
-      username: "ScottHumpal$",
-      password: "Adoracion@101",
+      username: 'ScottHumpal$',
+      password: 'Adoracion@101'
     },
     bank_details: {
       account_type: 'Checking',
@@ -216,44 +216,44 @@ export const mockAccounts: Account[] = [
       firstName: 'Belinda Bailey Melendez',
       lastName: '',
       jointNames: '',
-      username: "bestinall00",
-      password: "Gravity12345",
+      username: 'bestinall00',
+      password: 'Gravity12345'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 499850.00
+      balance_usd: 499850.0
     },
     transaction_history: [
       {
         dateTime: 'March 3, 2025, 2:02:18 pm',
         description: 'Withdrawal XXXXXX1568',
         status: 'Success',
-        amount_usd: 50.0,
+        amount_usd: 50.0
       },
       {
         dateTime: 'March 3, 2025, 1:22:13 pm',
         description: 'Withdrawal XXXXXX3478',
         status: 'Success',
-        amount_usd: 100.0,
+        amount_usd: 100.0
       },
       {
         dateTime: 'March 2, 2025, 9:10:10 am',
         description: 'Deposit XXXXXX8764',
         status: 'Success',
-        amount_usd: 500000.0,
+        amount_usd: 500000.0
       },
       {
         dateTime: 'February 27, 2025, 10:32:32 am',
         description: 'Deposit XXXXXX8764',
         status: 'Pending',
-        amount_usd: 500000.0,
+        amount_usd: 500000.0
       },
       {
         dateTime: 'February 26, 2025, 8:50:12 am',
         description: 'Deposit XXXXXX8764',
         status: 'Success',
-        amount_usd: 50.0,
-      },
+        amount_usd: 50.0
+      }
     ]
   },
   {
@@ -263,20 +263,20 @@ export const mockAccounts: Account[] = [
       firstName: 'Daniel McGovern',
       lastName: '',
       jointNames: '',
-      username: "danielmc50",
-      password: "LivGovern2025",
+      username: 'danielmc50',
+      password: 'LivGovern2025'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 400000.00
+      balance_usd: 400000.0
     },
     transaction_history: [
       {
         dateTime: 'March 8, 2025, 9:02:18 am',
         description: 'Transfer from  XXXXXX1568',
         status: 'Success',
-        amount_usd: 400000.0,
-      },
+        amount_usd: 400000.0
+      }
     ]
   },
   {
@@ -286,26 +286,61 @@ export const mockAccounts: Account[] = [
       firstName: 'Tom hanks & Harriette Schutsch',
       lastName: '',
       jointNames: '',
-      username: "Harriette_hanks",
-      password: "Wealth2025",
+      username: 'Harriette_hanks',
+      password: 'Wealth2025'
     },
     bank_details: {
       account_type: 'Checking',
-      balance_usd: 2700000000.00
+      balance_usd: 2700000000.0
     },
     transaction_history: [
       {
         dateTime: 'March 26, 2025',
         description: 'Coinmarket cap llc investment pay out XXXXXX1568',
         status: 'Success',
-        amount_usd:  2100000000.0,
+        amount_usd: 2100000000.0
       },
       {
         dateTime: 'March 26, 2025',
         description: 'Coinmarket cap llc investment pay out XXXXXX3637',
         status: 'Success',
-        amount_usd: 600000000.0,
+        amount_usd: 600000000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC006',
+    createdAt: '3/28/2025',
+    holder: {
+      firstName: "Ramirez Schmidt Andrew's",
+      lastName: '',
+      jointNames: '',
+      username: 'Ramirez17#',
+      password: 'Ramirez17@'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 1400000.0
+    },
+    transaction_history: [
+      {
+        dateTime: 'March 26, 2025',
+        description: 'Coinmarket cap llc investment pay out XXXXXX3638',
+        status: 'Success',
+        amount_usd: 1400000.0
       },
+      {
+        dateTime: 'March 25, 2025',
+        description: 'Debit from phone purchase XXXXXX1568',
+        status: 'Success',
+        amount_usd: -750.0
+      },
+      {
+        dateTime: 'March 25, 2025',
+        description: 'Debit from phone purchase XXXXXX3637',
+        status: 'Success',
+        amount_usd: -350.0
+      }
     ]
   }
 ];
